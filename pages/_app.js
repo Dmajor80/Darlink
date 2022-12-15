@@ -2,6 +2,7 @@ import React from 'react'
 import Layout from '../components/Layout'
 import '../styles/globals.css'
 import LoadingScreen from '../components/LoadingScreen'
+import { Windmill } from '@windmill/react-ui'
 
 function MyApp({ Component, pageProps }) {
 
@@ -20,7 +21,10 @@ function MyApp({ Component, pageProps }) {
         <LoadingScreen />
         </React.Fragment>
       ) : (
-        <Component {...pageProps} />
+        <Windmill>
+
+          <Component {...pageProps} />
+        </Windmill>
       )}
     </>
     // </Layout>

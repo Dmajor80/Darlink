@@ -1,9 +1,12 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
+const windmill = require('@windmill/react-ui/config')
+
+module.exports = windmill({
   content: [
     './pages/**/*.{js,ts,jsx,tsx}',
     './components/**/*.{js,ts,jsx,tsx}',
   ],
+  purge: ['src/**/*.js'],
   theme: {
     extend: {
       colors: {
@@ -22,4 +25,4 @@ module.exports = {
     },
   },
   plugins: [],
-}
+})
