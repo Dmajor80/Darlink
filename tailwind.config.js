@@ -6,7 +6,6 @@ module.exports = windmill({
     './pages/**/*.{js,ts,jsx,tsx}',
     './components/**/*.{js,ts,jsx,tsx}',
   ],
-  purge: ['src/**/*.js'],
   theme: {
     extend: {
       colors: {
