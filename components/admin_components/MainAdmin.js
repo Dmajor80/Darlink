@@ -84,7 +84,7 @@ export default function Profile() {
           </div>
         </div>
         {/* links */}
-        <div className='flex justify-between xl:w-5/6 my-4'>
+        {/* <div className='flex justify-between xl:w-5/6 my-4'>
           <div className='flex gap-3'>
             <div className=''>
               <button
@@ -120,9 +120,9 @@ export default function Profile() {
               unsave
             </button>
           </div>
-        </div>
+        </div> */}
         <div className='bg-whit md:w-5/6'>
-          <section
+          {/* <section
             className='relative bg-white block'
             style={{ height: '200px', backgroundColor: 'white' }}
           >
@@ -142,7 +142,7 @@ export default function Profile() {
               className='top-auto bottom-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden'
               style={{ height: '70px' }}
             ></div>
-          </section>
+          </section> */}
           <section className='relative py-16 bg-w'>
             <div className='container mx-auto px-4 bg-white'>
               <div
@@ -151,7 +151,7 @@ export default function Profile() {
               >
                 <div className='px-6 relative'>
                   <div className='grid md:flex flex-wrap justify-center'>
-                    <div className='w-full  px-4  flex justify-'>
+                    {/* <div className='w-full  px-4  flex justify-'>
                       <div className='relative pt-8 md:pt-0 '>
                         <Image
                           alt='...'
@@ -164,13 +164,16 @@ export default function Profile() {
                           width={120}
                         />
                       </div>
-                    </div>
+                    </div> */}
                   </div>
 
-                  <div className='text- mt-12 pt-14 md:pt-0  '>
+                  {/* <div className='text- mt-12 pt-14 md:pt-0  '>
                     <form className='Avenir w-full  xl:w-3/4 md:ml-44     '>
                       <div className='relative  mb-3 '>
-                        <label className='ml-2 text-sm font-semibold text-gray-700'>
+                        <label
+                          htmlFor=''
+                          className='ml-2 text-sm font-semibold text-gray-700'
+                        >
                           Display Name
                         </label>
                         <input
@@ -183,7 +186,10 @@ export default function Profile() {
                       </div>
 
                       <div className='relative w-full mb-3'>
-                        <label className='ml-2 text-sm font-semibold text-gray-700'>
+                        <label
+                          htmlFor=''
+                          className='ml-2 text-sm font-semibold text-gray-700'
+                        >
                           Location
                         </label>
                         <input
@@ -196,7 +202,10 @@ export default function Profile() {
                       </div>
                       <div className='relative w-full mb-3 '>
                         <div className=''>
-                          <label className='ml-2 text-sm font-semibold text-gray-700'>
+                          <label
+                            htmlFor=''
+                            className='ml-2 text-sm font-semibold text-gray-700'
+                          >
                             Bio
                           </label>
                           <textarea
@@ -211,11 +220,17 @@ export default function Profile() {
                       <div>
                         <label className=' items-center cursor-pointer '>
                           <div className=''>
-                            <label className='ml-2 text-sm font-semibold text-gray-700'>
+                            <label
+                              htmlFor=''
+                              className='ml-2 text-sm font-semibold text-gray-700'
+                            >
                               Background Image
                             </label>
                             <div className='flex p-2 rounded hover:bg-gray-100 dark:hover:bg-gray-600'>
-                              <label className='inline-flex relative items-center w-full cursor-pointer'>
+                              <label
+                                htmlFor=''
+                                className='inline-flex relative items-center w-full cursor-pointer'
+                              >
                                 <input
                                   id='customCheckLogin'
                                   type='checkbox'
@@ -242,12 +257,12 @@ export default function Profile() {
                         </button>
                       </div>
                     </form>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
 
-            <div className=''>
+            {/* <div className=''>
               <div className='py-2 my-4  '>
                 <Appreance />
               </div>
@@ -262,7 +277,7 @@ export default function Profile() {
                 {' '}
                 <Integrations />
               </div>
-            </div>
+            </div> */}
           </section>
         </div>
       </main>

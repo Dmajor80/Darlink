@@ -30,9 +30,9 @@ export default function Sidebar() {
             className='md:grid md:items-stretch md:max-h-full    px-2  
            items-center justify- w-full mx-auto'
           >
-            {/* Brand */}
+            {/* Brand nnnn */}
 
-            <div className='mt-5'>
+            {/* <div className='mt-5'>
               <Image
                 alt='...'
                 // src={pic}
@@ -41,7 +41,7 @@ export default function Sidebar() {
                 height={100}
                 width={100}
               />
-            </div>
+            </div> */}
 
             <div>
               {/* Navigation */}

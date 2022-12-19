@@ -18,10 +18,11 @@ function MyApp({ Component, pageProps }) {
     <>
       {!loading ? (
         <React.Fragment>
-        <LoadingScreen />
+          <LoadingScreen />
         </React.Fragment>
       ) : (
         <Windmill>
+        
 
           <Component {...pageProps} />
         </Windmill>

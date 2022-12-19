@@ -53,16 +53,17 @@ const MobileSidebar = () => {
             >
               {/* Brand */}
 
-              <div className='mt-5'>
+              {/* <div className='mt-5'>
                 <Image
                   alt='...'
+                  src=''
                   // src={pic}
                   className=' h-auto  rounded-full align-middle  border-none shadow-xl   '
                   style={{ maxWidth: '150px' }}
                   height={100}
                   width={100}
                 />
-              </div>
+              </div> */}
 
               <div>
                 {/* Navigation */}
