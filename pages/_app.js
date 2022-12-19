@@ -1,8 +1,7 @@
 import React from 'react'
-import Layout from '../components/Layout'
 import '../styles/globals.css'
 import LoadingScreen from '../components/LoadingScreen'
-import { Windmill } from '@windmill/react-ui'
+// import { Windmill } from '@windmill/react-ui'
 
 function MyApp({ Component, pageProps }) {
 
@@ -16,17 +15,19 @@ function MyApp({ Component, pageProps }) {
     // <Layout>
 
     <>
+      {/* <Component {...pageProps} /> */}
       {!loading ? (
         <React.Fragment>
           <LoadingScreen />
         </React.Fragment>
       ) : (
-        <Windmill>
+        // <Windmill>
         
 
           <Component {...pageProps} />
-        </Windmill>
+        // </Windmill>
       )}
+      {/* <h1 className='text-red-500 '>hey</h1> */}
     </>
     // </Layout>
   )
