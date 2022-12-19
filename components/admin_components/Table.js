@@ -27,11 +27,11 @@ function Tables() {
  
 
   // setup pages control for every table
-  const [pageTable1, setPageTable1] = useState(1)
+  // const [pageTable1, setPageTable1] = useState(1)
   const [pageTable2, setPageTable2] = useState(1)
 
   // setup data for every table
-  const [dataTable1, setDataTable1] = useState([])
+  // const [dataTable1, setDataTable1] = useState([])
   const [dataTable2, setDataTable2] = useState([])
 
   // pagination setup
@@ -39,9 +39,9 @@ function Tables() {
   const totalResults = response.length
 
   // pagination change control
-  function onPageChangeTable1(p) {
-    setPageTable1(p)
-  }
+  // function onPageChangeTable1(p) {
+  //   setPageTable1(p)
+  // }
 
   // pagination change control
   function onPageChangeTable2(p) {
@@ -50,14 +50,14 @@ function Tables() {
 
   // on page change, load new sliced data
   // here you would make another server request for new data
-  useEffect(() => {
-    setDataTable1(
-      response.slice(
-        (pageTable1 - 1) * resultsPerPage,
-        pageTable1 * resultsPerPage
-      )
-    )
-  }, [pageTable1])
+  // useEffect(() => {
+  //   setDataTable1(
+  //     response.slice(
+  //       (pageTable1 - 1) * resultsPerPage,
+  //       pageTable1 * resultsPerPage
+  //     )
+  //   )
+  // }, [pageTable1])
 
   // on page change, load new sliced data
   // here you would make another server request for new data
@@ -74,7 +74,6 @@ function Tables() {
     <>
       <PageTitle>Tables</PageTitle>
 
-      {/* <CTA /> */}
 
       {/* <SectionTitle>Simple table</SectionTitle>
       <TableContainer className='mb-8'>

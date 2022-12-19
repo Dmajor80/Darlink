@@ -1,7 +1,11 @@
 import React from 'react'
 import '../styles/globals.css'
 import LoadingScreen from '../components/LoadingScreen'
-// import { Windmill } from '@windmill/react-ui'
+import '@fontsource/roboto/300.css'
+import '@fontsource/roboto/400.css'
+import '@fontsource/roboto/500.css'
+import '@fontsource/roboto/700.css'
+
 
 function MyApp({ Component, pageProps }) {
 
@@ -12,24 +16,19 @@ function MyApp({ Component, pageProps }) {
   }, [])
 
   return (
-    // <Layout>
 
     <>
-      {/* <Component {...pageProps} /> */}
       {!loading ? (
         <React.Fragment>
           <LoadingScreen />
         </React.Fragment>
       ) : (
-        // <Windmill>
         
 
           <Component {...pageProps} />
-        // </Windmill>
       )}
       {/* <h1 className='text-red-500 '>hey</h1> */}
     </>
-    // </Layout>
   )
 }
 
