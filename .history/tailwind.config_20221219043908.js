@@ -1,8 +1,8 @@
 /** @type {import('tailwindcss').Config} */
 const windmill = require('@windmill/react-ui/config')
 
-module.exports = windmill({
-// module.exports = {
+// module.exports = windmill({
+module.exports = {
   content: [
     './app/**/*.{js,ts,jsx,tsx}',
     './pages/**/*.{js,ts,jsx,tsx}',
@@ -26,4 +26,8 @@ module.exports = windmill({
     },
   },
   plugins: [],
+<<<<<<< HEAD
+}
+=======
 })
+>>>>>>> 3ca3cc7b9df0c25b9f91279151b7267a056ae689

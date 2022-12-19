@@ -21,67 +21,43 @@ export default function Profile() {
           <div className=' ml-20 md:ml-0'>
             <h1 className='text-[#8BC940] font-bold text-5xl '>My Page</h1>
           </div>
-          <div className=''>
-            <div className='pt-4 md:pt-0'>
-              <button
-                className='bg-[#8BC940]  text-white active:bg-gray-700 text-sm font-bold uppercase
-                       px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 w-[100px]
-                       bottom-0 '
-                type='button'
-                style={{ transition: 'all .15s ease' }}
-              >
-                unsave
-              </button>
-              <button
-                className='bg-[#8BC940]  text-white active:bg-gray-700 text-sm font-bold uppercase
-                       px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 w-[100px]
-                       bottom-0 '
-                type='button'
-                style={{ transition: 'all .15s ease' }}
-                // onClick={() =>{<Preview />}}
-              >
-                {/* < Preview /> */}
-                Preview
-              </button>
-            </div>
-          </div>
-          <div className='grid gap-6 mb-8 md:grid-cols-2 xl:grid-cols-4'>
-            <InfoCard title='Total clients' value='6389'>
-              {/* <RoundIcon
+        </div>
+        <div className='grid gap-6 mb-8 md:grid-cols-2 xl:grid-cols-4 xl:w-5/6 '>
+          <InfoCard title='Total clients' value='6389'>
+            {/* <RoundIcon
                 icon={PeopleIcon}
                 iconColorClass='text-orange-500 dark:text-orange-100'
                 bgColorClass='bg-orange-100 dark:bg-orange-500'
                 className='mr-4'
               /> */}
-            </InfoCard>
+          </InfoCard>
 
-            <InfoCard title='Account balance' value='$ 46,760.89'>
-              {/* <RoundIcon
+          <InfoCard title='Account balance' value='$ 46,760.89'>
+            {/* <RoundIcon
                 icon={MoneyIcon}
                 iconColorClass='text-green-500 dark:text-green-100'
                 bgColorClass='bg-green-100 dark:bg-green-500'
                 className='mr-4'
               /> */}
-            </InfoCard>
+          </InfoCard>
 
-            <InfoCard title='New sales' value='376'>
-              {/* <RoundIcon
+          <InfoCard title='New sales' value='376'>
+            {/* <RoundIcon
                 icon={CartIcon}
                 iconColorClass='text-blue-500 dark:text-blue-100'
                 bgColorClass='bg-blue-100 dark:bg-blue-500'
                 className='mr-4'
               /> */}
-            </InfoCard>
+          </InfoCard>
 
-            <InfoCard title='Pending contacts' value='35'>
-              {/* <RoundIcon
+          <InfoCard title='Pending contacts' value='35'>
+            {/* <RoundIcon
                 icon={ChatIcon}
                 iconColorClass='text-teal-500 dark:text-teal-100'
                 bgColorClass='bg-teal-100 dark:bg-teal-500'
                 className='mr-4'
               /> */}
-            </InfoCard>
-          </div>
+          </InfoCard>
         </div>
         {/* links */}
         {/* <div className='flex justify-between xl:w-5/6 my-4'>
