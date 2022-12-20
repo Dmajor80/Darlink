@@ -8,6 +8,8 @@ import Buttons from '../Buttons'
 import Integrations from '../Integrations'
 import Preview from '../inner-page/Preview'
 import InfoCard from './Card'
+import Tables from './Table'
+// import {ChatIcon} from '@mui/icons-material'
 
 export default function Profile() {
   return (
@@ -97,6 +99,11 @@ export default function Profile() {
             </button>
           </div>
         </div> */}
+
+        <div className='md:w-5/6'>
+          <Tables />
+        </div>
+
         <div className='bg-whit md:w-5/6'>
           {/* <section
             className='relative bg-white block'

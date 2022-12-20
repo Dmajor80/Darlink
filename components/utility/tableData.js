@@ -1,4 +1,4 @@
-export default tableData = [
+ const  tableData = [
   {
     avatar:
       'https://s3.amazonaws.com/uifaces/faces/twitter/lokesh_coder/128.jpg',
@@ -376,3 +376,6 @@ export default tableData = [
     date: 'Mon Jun 15 2020 04:04:32 GMT-0300 (Brasilia Standard Time)',
   },
 ]
+
+
+export default tableData

@@ -4,20 +4,38 @@ import PageTitle from './PageTitle'
 import SectionTitle from './SectionTitle'
 // import SectionTitle from '../components/Typography/SectionTitle'
 // import CTA from '../components/CTA'
+// import {
+  // Table,
+  // TableHeader,
+  // TableCell,
+  // TableBody,
+  // TableRow,
+  // TableFooter,
+  // TableContainer,
+  // Badge,
+  // Avatar,
+  // Button,  
+  // Pagination,
+// } from '@windmill/react-ui'
 import {
   Table,
-  TableHeader,
+  TableHead,
   TableCell,
   TableBody,
-  TableRow,
   TableFooter,
+  TableRow,
   TableContainer,
+  Button,
   Badge,
   Avatar,
-  Button,
   Pagination,
-} from '@windmill/react-ui'
-import { EditIcon, TrashIcon } from '../../public/images/icons'
+} from '@mui/material'
+// import {DeleteIcon, EditIcon} from '@mui/icons-material'
+// import { EditIcon, TrashIcon } from '../../public/images/icons'
+// import { EditIcon } from '../../public/images/icons/EditIcon.svg'
+import { TrashIcon } from '../../public/images/icons/TrashIcon.svg'
+import DeleteIcon from '@mui/icons-material/Delete'
+import EditIcon from '@mui/icons-material/Edit'
 
 import response from '../utility/tableData'
 // make a copy of the data, for the second table
@@ -72,8 +90,7 @@ function Tables() {
 
   return (
     <>
-      <PageTitle>Tables</PageTitle>
-
+      {/* <PageTitle>Suscribers</PageTitle> */}
 
       {/* <SectionTitle>Simple table</SectionTitle>
       <TableContainer className='mb-8'>
@@ -129,10 +146,10 @@ function Tables() {
         </TableFooter>
       </TableContainer> */}
 
-      <SectionTitle>Table with actions</SectionTitle>
+      <SectionTitle>Users</SectionTitle>
       <TableContainer className='mb-8'>
         <Table>
-          <TableHeader>
+          <TableHead>
             <tr>
               <TableCell>Client</TableCell>
               <TableCell>Amount</TableCell>
@@ -140,7 +157,7 @@ function Tables() {
               <TableCell>Date</TableCell>
               <TableCell>Actions</TableCell>
             </tr>
-          </TableHeader>
+          </TableHead>
           <TableBody>
             {dataTable2.map((user, i) => (
               <TableRow key={i}>
@@ -173,10 +190,14 @@ function Tables() {
                 <TableCell>
                   <div className='flex items-center space-x-4'>
                     <Button layout='link' size='icon' aria-label='Edit'>
-                      <EditIcon className='w-5 h-5' aria-hidden='true' />
+                      {/* <EditIcon className='w-5 h-5' aria-hidden='true' /> */}
+                      {/* <EditIcon className='w-5 h-5' aria-hidden='true' /> */}
+                      <EditIcon />
                     </Button>
                     <Button layout='link' size='icon' aria-label='Delete'>
-                      <TrashIcon className='w-5 h-5' aria-hidden='true' />
+                      {/* <DeleteIcon className='w-5 h-5' aria-hidden='true' /> */}
+                      {/* <TrashIcon className='w-5 h-5' aria-hidden='true' /> */}
+                      <DeleteIcon />
                     </Button>
                   </div>
                 </TableCell>
