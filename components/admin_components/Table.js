@@ -1,22 +1,7 @@
 import React, { useState, useEffect } from 'react'
 
-import PageTitle from './PageTitle'
+// import PageTitle from './PageTitle'
 import SectionTitle from './SectionTitle'
-// import SectionTitle from '../components/Typography/SectionTitle'
-// import CTA from '../components/CTA'
-// import {
-  // Table,
-  // TableHeader,
-  // TableCell,
-  // TableBody,
-  // TableRow,
-  // TableFooter,
-  // TableContainer,
-  // Badge,
-  // Avatar,
-  // Button,  
-  // Pagination,
-// } from '@windmill/react-ui'
 import {
   Table,
   TableHead,
@@ -30,10 +15,6 @@ import {
   Avatar,
   Pagination,
 } from '@mui/material'
-// import {DeleteIcon, EditIcon} from '@mui/icons-material'
-// import { EditIcon, TrashIcon } from '../../public/images/icons'
-// import { EditIcon } from '../../public/images/icons/EditIcon.svg'
-import { TrashIcon } from '../../public/images/icons/TrashIcon.svg'
 import DeleteIcon from '@mui/icons-material/Delete'
 import EditIcon from '@mui/icons-material/Edit'
 
@@ -45,15 +26,13 @@ function Tables() {
  
 
   // setup pages control for every table
-  // const [pageTable1, setPageTable1] = useState(1)
   const [pageTable2, setPageTable2] = useState(1)
 
   // setup data for every table
-  // const [dataTable1, setDataTable1] = useState([])
   const [dataTable2, setDataTable2] = useState([])
 
   // pagination setup
-  const resultsPerPage = 10
+  const resultsPerPage = 20
   const totalResults = response.length
 
   // pagination change control

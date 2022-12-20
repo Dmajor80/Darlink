@@ -1,7 +1,6 @@
  const  tableData = [
   {
-    avatar:
-      'https://s3.amazonaws.com/uifaces/faces/twitter/lokesh_coder/128.jpg',
+    avatar:    'https://s3.amazonaws.com/uifaces/faces/twitter/lokesh_coder/128.jpg',
     name: 'Chandler Jacobi',
     job: 'Direct Security Executive',
     amount: 989.4,
