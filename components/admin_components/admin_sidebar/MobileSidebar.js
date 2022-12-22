@@ -53,17 +53,7 @@ const MobileSidebar = () => {
             >
               {/* Brand */}
 
-              {/* <div className='mt-5'>
-                <Image
-                  alt='...'
-                  src=''
-                  // src={pic}
-                  className=' h-auto  rounded-full align-middle  border-none shadow-xl   '
-                  style={{ maxWidth: '150px' }}
-                  height={100}
-                  width={100}
-                />
-              </div> */}
+             
 
               <div>
                 {/* Navigation */}
@@ -129,16 +119,7 @@ const MobileSidebar = () => {
                       </Link>
                     </li>
 
-                    <li className='items-center hover:bg-gray-200'>
-                      <button
-                        className='text-blueGray-300 text-xs uppercase py-3 font-bold block'
-                        href='#pablo'
-                        onClick={(e) => e.preventDefault()}
-                      >
-                        <i className='fas fa-tools text-blueGray-300 mr-2 text-sm'></i>{' '}
-                        Upgrade
-                      </button>
-                    </li>
+                    
                   </ul>
                 </div>
               </div>

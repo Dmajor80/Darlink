@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import Link from 'next/link'
-import Image from 'next/image'
-// import pic from '../../public/images/team-2-800x800.jpg'
+// import Image from 'next/image'
 import { FaPager } from 'react-icons/fa'
 import { MdOutlineLogout } from 'react-icons/md'
 import { IoMdContacts } from 'react-icons/io'
@@ -10,14 +9,8 @@ import { RiAccountBoxFill } from 'react-icons/ri'
 // import { Modal } from '../Modal'
 
 export default function Sidebar() {
-  // const [collapseShow, setCollapseShow] = React.useState('hidden')
 
-  const [showModal, setShowModal] = useState(false)
 
-  const showtheModal = () => {
-    setShowModal(!showModal)
-    console.log('welcome')
-  }
   return (
     <>
       <aside>
@@ -32,16 +25,7 @@ export default function Sidebar() {
           >
             {/* Brand nnnn */}
 
-            {/* <div className='mt-5'>
-              <Image
-                alt='...'
-                // src={pic}
-                className=' h-auto  rounded-full align-middle  border-none shadow-xl   '
-                style={{ maxWidth: '150px' }}
-                height={100}
-                width={100}
-              />
-            </div> */}
+
 
             <div>
               {/* Navigation */}
@@ -107,17 +91,7 @@ export default function Sidebar() {
                     </Link>
                   </li>
 
-                  <li className='items-center hover:bg-gray-200'>
-                    <button
-                      className='text-blueGray-300 text-xs uppercase py-3 font-bold block'
-                      href='#pablo'
-                      // onFocus={showtheModal}
-                    >
-                      {/* {showModal && <Modal showtheModal={showtheModal} />} */}
-                      <i className='fas fa-tools text-blueGray-300 mr-2 text-sm'></i>{' '}
-                      Upgrade
-                    </button>
-                  </li>
+                 
                 </ul>
               </div>
             </div>
