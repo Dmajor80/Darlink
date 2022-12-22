@@ -9,11 +9,13 @@ function RoundIcon({
 }) {
   const baseStyle = 'p-3 rounded-full'
 
-  const cls = classNames(baseStyle, iconColorClass, bgColorClass, className)
+  // const cls = classNames(baseStyle, iconColorClass, bgColorClass, className)
 
   return (
-    <div className={cls}>
-      <Icon className="w-5 h-5" />
+    <div 
+    // className={cls}
+    >
+      // <Icon className="w-5 h-5" />
     </div>
   )
 }

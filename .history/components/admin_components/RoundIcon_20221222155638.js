@@ -12,7 +12,9 @@ function RoundIcon({
   const cls = classNames(baseStyle, iconColorClass, bgColorClass, className)
 
   return (
-    <div className={cls}>
+    <div 
+    className={cls}
+    >
       <Icon className="w-5 h-5" />
     </div>
   )

@@ -13,7 +13,7 @@ export default function Referrals() {
       <section>
         <div class='flex flex-co items-center w-full max-w-screen-md p-6 pb-6 mt-10 gap-6 bg-white rounded-lg shadow-xl sm:p-8'>
           <div className=''>
-            <InfoCard title='Total Balance' value='6389'></InfoCard>
+            <InfoCard title='Total clients' value='6389'></InfoCard>
           </div>
 
           {/* <div className=''>

@@ -12,9 +12,9 @@ export default function Referrals() {
       </div>
       <section>
         <div class='flex flex-co items-center w-full max-w-screen-md p-6 pb-6 mt-10 gap-6 bg-white rounded-lg shadow-xl sm:p-8'>
-          <div className=''>
-            <InfoCard title='Total Balance' value='6389'></InfoCard>
-          </div>
+        <div className="">
+          <InfoCard ></InfoCard>
+        </div>
 
           {/* <div className=''>
             <h1 className='text-3xl font-semibold py-4 mb-4 '>

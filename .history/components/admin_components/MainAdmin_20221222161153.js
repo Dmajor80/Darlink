@@ -4,12 +4,12 @@ import InfoCard from './Card'
 // import RoundIcon from './RoundIcon'
 import Tables from './Table'
 // import {ChatIcon} from '@mui/icons-material'
-import  AccountCircleRoundedIcon from '@mui/icons-material/AccountCircleRoundedIcon'
-import AttachMoneyRoundedIcon from '@mui/icons-material/AttachMoneyRounded'
+import AccountCircleRoundedIcon from '@mui/icons-material/AccountCircleRounded';
 
 export default function Profile() {
   return (
     <>
+      
       <main className='profile-page mx- '>
         {/* pages */}
         <div className='md:flex justify-between -mt-5 md:-mt-24 xl:w-5/6 my-  '>
@@ -25,7 +25,7 @@ export default function Profile() {
                 bgColorClass='bg-orange-100 dark:bg-orange-500'
                 className='mr-4'
               /> */}
-            <AccountCircleRoundedIcon className='mr-4' />
+              <AccountCircleRoundedIcon />
           </InfoCard>
 
           <InfoCard title='Account balance' value='$ 46,760.89'>
@@ -35,7 +35,6 @@ export default function Profile() {
                 bgColorClass='bg-green-100 dark:bg-green-500'
                 className='mr-4'
               /> */}
-            <AttachMoneyRoundedIcon className='mr-4' />
           </InfoCard>
 
           <InfoCard title='New sales' value='376'>
@@ -45,7 +44,6 @@ export default function Profile() {
                 bgColorClass='bg-blue-100 dark:bg-blue-500'
                 className='mr-4'
               /> */}
-            <AccountCircleRoundedIcon className='mr-4' />
           </InfoCard>
 
           <InfoCard title='Pending contacts' value='35'>
@@ -55,14 +53,17 @@ export default function Profile() {
                 bgColorClass='bg-teal-100 dark:bg-teal-500'
                 className='mr-4'
               /> */}
-            <AccountCircleRoundedIcon className='mr-4' />
           </InfoCard>
         </div>
+       
 
         <div className='md:w-5/6'>
           <Tables />
         </div>
+
+        
       </main>
+     
     </>
   )
 }

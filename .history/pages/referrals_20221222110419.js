@@ -2,7 +2,6 @@ import React from 'react'
 import Image from 'next/image'
 import logo from '../public/images/PayPal-Logo.png'
 import airlink from '../public/images/solo_logo.jpeg'
-import InfoCard from '../components/admin_components/Card'
 
 export default function Referrals() {
   return (
@@ -13,10 +12,6 @@ export default function Referrals() {
       <section>
         <div class='flex flex-co items-center w-full max-w-screen-md p-6 pb-6 mt-10 gap-6 bg-white rounded-lg shadow-xl sm:p-8'>
           <div className=''>
-            <InfoCard title='Total Balance' value='6389'></InfoCard>
-          </div>
-
-          {/* <div className=''>
             <h1 className='text-3xl font-semibold py-4 mb-4 '>
               Share Invite Link
             </h1>
@@ -63,7 +58,7 @@ export default function Referrals() {
             <p className='text-center text-blue-500 cursor-pointer hover:underline py-3 '>
               Customize Invite Link
             </p>
-          </div> */}
+          </div>
         </div>
         {/* second box */}
         <div class=' w-full max-w-screen-md p-6 pb-6 mt-10 bg-white rounded-lg shadow-xl sm:p-8'>

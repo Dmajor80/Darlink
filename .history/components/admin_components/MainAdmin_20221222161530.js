@@ -4,8 +4,11 @@ import InfoCard from './Card'
 // import RoundIcon from './RoundIcon'
 import Tables from './Table'
 // import {ChatIcon} from '@mui/icons-material'
-import  AccountCircleRoundedIcon from '@mui/icons-material/AccountCircleRoundedIcon'
-import AttachMoneyRoundedIcon from '@mui/icons-material/AttachMoneyRounded'
+import {
+  AccountCircleRoundedIcon,
+  AttachMoneyRoundedIcon,
+} from '@mui/icons-material'
+// import AttachMoneyRoundedIcon from '@mui/icons-material/AttachMoneyRounded'
 
 export default function Profile() {
   return (

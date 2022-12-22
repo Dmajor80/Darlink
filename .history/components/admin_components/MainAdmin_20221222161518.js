@@ -4,8 +4,11 @@ import InfoCard from './Card'
 // import RoundIcon from './RoundIcon'
 import Tables from './Table'
 // import {ChatIcon} from '@mui/icons-material'
-import  AccountCircleRoundedIcon from '@mui/icons-material/AccountCircleRoundedIcon'
-import AttachMoneyRoundedIcon from '@mui/icons-material/AttachMoneyRounded'
+import {
+  AccountCircleRoundedIcon,
+  AttachMoneyRoundedIcon,
+} from '@mui/icons-material'
+// import AttachMoneyRoundedIcon from '@mui/icons-material/AttachMoneyRounded'
 
 export default function Profile() {
   return (
@@ -35,7 +38,7 @@ export default function Profile() {
                 bgColorClass='bg-green-100 dark:bg-green-500'
                 className='mr-4'
               /> */}
-            <AttachMoneyRoundedIcon className='mr-4' />
+            <AttachMoneyRoundedIcon />
           </InfoCard>
 
           <InfoCard title='New sales' value='376'>

@@ -76,7 +76,7 @@ export default function Sidebar() {
                     <Link
                       className='text-blueGray-700 flex  gap-2 items-center hover:text-blueGray-500 text-xs uppercase py-3 font-bold '
                       // href='/referrals'
-                      href='/wallet'
+                      href='/referralses'
                     >
                       {/* <i className='fas fa-user-circle text-blueGray-400 mr-2 text-sm'></i>{' '} */}
                       <IoMdContacts className='text-2xl' />
