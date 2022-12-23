@@ -3,6 +3,8 @@ import Image from 'next/image'
 import logo from '../public/images/PayPal-Logo.png'
 import airlink from '../public/images/solo_logo.jpeg'
 import InfoCard from '../components/admin_components/Card'
+import AttachMoneyRoundedIcon from '@mui/icons-material/AttachMoneyRounded'
+
 
 export default function Referrals() {
   return (
@@ -13,7 +15,9 @@ export default function Referrals() {
       <section>
         <div class='flex flex-co items-center w-full max-w-screen-md p-6 pb-6 mt-10 gap-6 bg-white rounded-lg shadow-xl sm:p-8'>
           <div className=''>
-            <InfoCard title='Total Balance' value='6389'></InfoCard>
+            <InfoCard title='Total Balance' value='6389'>
+              <AttachMoneyRoundedIcon />
+            </InfoCard>
           </div>
 
           {/* <div className=''>
