@@ -1,18 +1,13 @@
-import  {useState} from 'react'
+import { useState } from 'react'
 
 import { Bar } from 'react-chartjs-2'
 // import {BarChart} from '../components/BarChart'
-import {
-  barOptions,
-  barLegends,
-} from '../components/utility/Chartbar.js'
+// import { barOptions, barLegends } from '../components/utility/Chartbar.js'
+import { barOptions, barLegends } from '../../../components/utility/Chartbar'
 import { Chart as ChartJS } from 'chart.js/auto'
 // import Post from '../components/Post'
 
-
 export default function Analytics() {
-
-
   return (
     //    <Post>
     <div>
@@ -77,4 +72,3 @@ export default function Analytics() {
     // {/* </Post> */}
   )
 }
-
