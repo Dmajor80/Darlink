@@ -38,7 +38,6 @@ export default function Sidebar() {
                       className='text-[#8BC940]  hover:text-[#8BC940] flex  gap-2 items-center text-xs uppercase py-3 font-bold '
                       href='/dashboard'
                     >
-                      {/* <i className='fas fa-tv opac mr-2 text-sm'></i> */}
                       <FaPager className='text-2xl' />
                       My Page
                     </Link>
@@ -59,9 +58,8 @@ export default function Sidebar() {
                     <Link
                       className='text-blueGray-700 flex  gap-2 items-center hover:text-blueGray-500 text-xs uppercase py-3 font-bold '
                       // href='/referrals'
-                      href='/referralses'
+                      href='/wallet'
                     >
-                      {/* <i className='fas fa-user-circle text-blueGray-400 mr-2 text-sm'></i>{' '} */}
                       <IoMdContacts className='text-2xl' />
                       Wallet
                     </Link>
@@ -73,7 +71,6 @@ export default function Sidebar() {
                       // href='/account'
                       href='/accounts'
                     >
-                      {/* <i className='fas fa-fingerprint text-blueGray-400 mr-2 text-sm'></i>{' '} */}
                       <RiAccountBoxFill className='text-2xl' />
                       Account
                     </Link>
@@ -85,7 +82,6 @@ export default function Sidebar() {
                       href='/auth/Login'
                       // onClick={(e) => e.preventDefault()}
                     >
-                      {/* <i className='fas fa-clipboard-list text-blueGray-300 mr-2 text-sm'></i>{' '} */}
                       <MdOutlineLogout className='text-2xl' />
                       Log Out
                     </Link>

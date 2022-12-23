@@ -13,62 +13,18 @@ export default function Referrals() {
         <h1 className='text-blue-500 font-semibold text-3xl'>Wallet</h1>
       </div>
       <section>
-        <div class='flex flex-co items-center w-full max-w-screen-md p-6 pb-6 mt-10 gap-6 bg-white rounded-lg shadow-xl sm:p-8'>
-          <div className=''>
+        {/* <div class='flex flex-co items-center w-full max-w-screen-md p-6 pb-6 mt-10 gap-6 bg-white rounded-lg shadow-xl sm:p-8'> */}
+          <div className='grid gap-6 mb-8 md:grid-cols-2 xl:grid-cols-4 xl:w-5/6'>
+            <InfoCard title='Total Balance' value='6389'>
+              <AttachMoneyRoundedIcon />
+            </InfoCard>
             <InfoCard title='Total Balance' value='6389'>
               <AttachMoneyRoundedIcon />
             </InfoCard>
           </div>
 
-          {/* <div className=''>
-            <h1 className='text-3xl font-semibold py-4 mb-4 '>
-              Share Invite Link
-            </h1>
-            <div className='w-60'>
-              <Image src={airlink} alt='logo' w={100} h={100} className='p-2' />
-            </div>
-          </div>
-          <div className=''>
-            <p className='text-l text-md py-6 mt-8  '>
-              Invite your friends to solo.to and they will receive{' '}
-              <span className='font-bold'>10% off</span> their purchase if they
-              upgrade within 48 hours.
-            </p>
-            <div className=''>
-              <div className='relative'>
-                <div className='flex absolute inset-y-0 right-4 items-center  pointer-events-none'>
-                  <button className='bg-blue-500 text-white uppercase text-sm cursor-pointer p-1.5 '>
-                    copy
-                  </button>
-                </div>
-                <input
-                  type='text'
-                  id='email-address-icon'
-                  className='bg-gray-50 border  border-gray-300
-                 text-gray-900 text-sm  focus:ring-blue-500 focus:border-blue-500 block w-full 
-                 pl-10 p-5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 
-                 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500'
-                  value='arilink/invite/link'
-                />
-              </div>
-            </div>
-            <div className='flex flex- justify- gap-2 py- my-4'>
-              <div className='bg-gray-200 px-4 p-2 w-1/3 '>
-                {' '}
-                <button className='px-'>Facebook</button>
-              </div>
-              <div className='bg-gray-200 px-4 p-2 w-1/3 '>
-                <button className='px-'>Twitter</button>
-              </div>
-              <div className='bg-gray-200 px-4 p-2 w-1/3 '>
-                <button className='px-'>Email</button>
-              </div>
-            </div>
-            <p className='text-center text-blue-500 cursor-pointer hover:underline py-3 '>
-              Customize Invite Link
-            </p>
-          </div> */}
-        </div>
+         
+        {/* </div> */}
         {/* second box */}
         <div class=' w-full max-w-screen-md p-6 pb-6 mt-10 bg-white rounded-lg shadow-xl sm:p-8'>
           <h1 className='text-3xl text-black py-3 font-semibold pb-8 mb-4 '>
