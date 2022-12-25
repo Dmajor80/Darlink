@@ -6,13 +6,21 @@ import Appreance from '../Appreance'
 import Link from '../Link'
 import Buttons from '../Buttons'
 import Integrations from '../Integrations'
-// import Details from '../Details'
-// import Image from 'next/image'
-// import Post from '../Post'
 import Preview from '../inner-page/Preview'
+import ToggleButton from '@mui/material/ToggleButton'
+import ToggleButtonGroup from '@mui/material/ToggleButtonGroup'
+import SearchRoundedIcon from '@mui/icons-material/SearchRounded'
+import ModeEditOutlineRoundedIcon from '@mui/icons-material/ModeEditOutlineRounded'
 
 
 export default function Profile() {
+
+  const [alignment, setAlignment] = React.useState('left');
+
+  const handleAlignment = (event, newAlignment) => {
+    setAlignment(newAlignment);
+  };
+
   return (
     <>
       {/* <Navbar transparent /> */}
@@ -25,7 +33,7 @@ export default function Profile() {
             <h1 className='text-[#8BC940] font-bold text-5xl '>My Page</h1>
           </div>
           <div className=''>
-            <div className='pt-4 md:pt-0'>
+            {/* <div className='pt-4 md:pt-0'>
               <button
                 className='bg-[#8BC940]  text-white active:bg-gray-700 text-sm font-bold uppercase
                        px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 w-[100px]
@@ -41,12 +49,34 @@ export default function Profile() {
                        bottom-0 '
                 type='button'
                 style={{ transition: 'all .15s ease' }}
-                // onClick={() =>{<Preview />}}
+                onClick={() => {
+                  ;<Preview />
+                }}
               >
-                {/* < Preview /> */}
                 Preview
               </button>
-            </div>
+            </div> */}
+            <ToggleButtonGroup
+              value={alignment}
+              exclusive
+              onChange={handleAlignment}
+              aria-label='text alignment'
+              
+            >
+              <ToggleButton
+               
+                value='left'
+                aria-label='left aligned'
+              >
+                <ModeEditOutlineRoundedIcon />
+                <h1>Editor</h1>
+              </ToggleButton>
+              <ToggleButton value='center' aria-label='centered'>
+                <SearchRoundedIcon />
+                <h1>Preview</h1>
+              </ToggleButton>
+              
+            </ToggleButtonGroup>
           </div>
         </div>
         {/* links */}
