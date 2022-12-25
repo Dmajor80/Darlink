@@ -6,9 +6,13 @@ import Appreance from '../Appreance'
 import Link from '../Link'
 import Buttons from '../Buttons'
 import Integrations from '../Integrations'
+import { ToggleButton, ToggleButtonGroup } from '@mui/material'
 // import Details from '../Details'
 // import Image from 'next/image'
 // import Post from '../Post'
+import SearchRoundedIcon from '@mui/icons-material/SearchRounded'
+import ModeEditOutlineRoundedIcon from '@mui/icons-material/ModeEditOutlineRounded'
+
 
 export default function Profile() {
   return (
@@ -23,26 +27,21 @@ export default function Profile() {
             <h1 className='text-[#8BC940] font-bold text-5xl '>My Page</h1>
           </div>
           <div className=''>
-            <div className='pt-4 md:pt-0'>
-              <button
-                className='bg-[#8BC940]  text-white active:bg-gray-700 text-sm font-bold uppercase
-                       px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 w-[100px]
-                       bottom-0 '
-                type='button'
-                style={{ transition: 'all .15s ease' }}
-              >
-                unsave
-              </button>
-              <button
-                className='bg-[#8BC940]  text-white active:bg-gray-700 text-sm font-bold uppercase
-                       px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 w-[100px]
-                       bottom-0 '
-                type='button'
-                style={{ transition: 'all .15s ease' }}
-              >
-                unsave
-              </button>
-            </div>
+            <ToggleButtonGroup
+              value={alignment}
+              exclusive
+              onChange={handleAlignment}
+              aria-label='text alignment'
+            >
+              <ToggleButton value='left' aria-label='left aligned'>
+                <ModeEditOutlineRoundedIcon />
+                <h1>Editor</h1>
+              </ToggleButton>
+              <ToggleButton value='center' aria-label='centered'>
+                <SearchRoundedIcon />
+                <h1>Preview</h1>
+              </ToggleButton>
+            </ToggleButtonGroup>
           </div>
         </div>
         {/* links */}
@@ -128,13 +127,9 @@ export default function Profile() {
                       </div>
                     </div>
                   </div>
-
-                  
                 </div>
               </div>
             </div>
-
-            
           </section>
         </div>
       </main>

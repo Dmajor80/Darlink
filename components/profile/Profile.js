@@ -33,29 +33,7 @@ export default function Profile() {
             <h1 className='text-[#8BC940] font-bold text-5xl '>My Page</h1>
           </div>
           <div className=''>
-            {/* <div className='pt-4 md:pt-0'>
-              <button
-                className='bg-[#8BC940]  text-white active:bg-gray-700 text-sm font-bold uppercase
-                       px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 w-[100px]
-                       bottom-0 '
-                type='button'
-                style={{ transition: 'all .15s ease' }}
-              >
-                unsave
-              </button>
-              <button
-                className='bg-[#8BC940]  text-white active:bg-gray-700 text-sm font-bold uppercase
-                       px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 w-[100px]
-                       bottom-0 '
-                type='button'
-                style={{ transition: 'all .15s ease' }}
-                onClick={() => {
-                  ;<Preview />
-                }}
-              >
-                Preview
-              </button>
-            </div> */}
+            
             <ToggleButtonGroup
               value={alignment}
               exclusive
