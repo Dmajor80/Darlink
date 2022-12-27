@@ -131,8 +131,8 @@ const NewSidebar = () => {
                     <li className='items-center hover:bg-gray-200'>
                       <button
                         className='text-blueGray-300 text-xs uppercase py-3 font-bold block'
-                        href='#pablo'
-                        onClick={(e) => e.preventDefault()}
+                        href='/upgrade'
+                        // onClick={(e) => e.preventDefault()}
                       >
                         <i className='fas fa-tools text-blueGray-300 mr-2 text-sm'></i>{' '}
                         Upgrade

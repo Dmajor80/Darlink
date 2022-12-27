@@ -2,7 +2,7 @@ import React from 'react'
 import MobileSidebar from '../components/profile/MobileSidebar'
 import Profile from '../components/profile/Profile'
 import DesktopSidebar from '../components/sidebar/DesktopSidebar'
-import Post from '../components/Post'
+// import Post from '../components/Post'
 
 export default function Dashboard({}) {
   return (
