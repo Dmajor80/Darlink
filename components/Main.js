@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Layout from "./Layout";
+import Slider from "./Slider";
 
 export default function Main() {
   return (
@@ -59,7 +60,7 @@ export default function Main() {
 
               <div className='text-center mt-6'>
                 <button
-                  className='bg-[#8BC940] hover:bg-[#5AB025] hover:animate-spin  text-white active:bg-gray-700 text-sm font-bold uppercase
+                  className='bg-[#8BC940] hover:bg-[#5AB025]  text-white active:bg-gray-700 text-sm font-bold uppercase
                    px-6 py-5 rounded-xl shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 w-full'
                   type='button'
                   style={{ transition: 'all .15s ease' }}
@@ -74,14 +75,15 @@ export default function Main() {
             </form>
             {/* </section> */}
           </div>
-          <div className='xl:mr-44 sm:mr-0 sm:mb-28 mb-0 lg:mb-0 mr-48 md:pl-10 '>
-            <Image
+          <div className='xl:mr-44 sm:mr-0 sm:mb-28 mb-0 lg:mb-0 mr-48 md:pl-10  '>
+            {/* <Image
               className='w-80 md:ml-1 ml-24 '
               alt='iPhone-12'
               src='/images/solo_img.jpeg'
               width={300}
               height={200}
-            />
+            /> */}
+            <Slider />
           </div>
         </div>
       </section>
