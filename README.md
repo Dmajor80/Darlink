@@ -1,34 +1,79 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# DARLINK Frontend  FOR DASHBOARD (USER AND ADMIN)
 
-First, run the development server:
+This is the frontend  for  Darlink User and Admin dashboards.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## STACKS
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Main
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+1. Next
+2. Material Ui
+3. Tailwind css
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+- Package Manager: `npm`
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## GET STARTED
 
-## Learn More
+1. Clone the repo and install dependencies using `npm install`
+2. Use `npm run dev` to run the server locally
 
-To learn more about Next.js, take a look at the following resources:
+### API DOC 
+https://darlink-backend.vercel.app
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## APPLICATION DESCRIPTION
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+ https://solo-2.vercel.app/
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Sample Site
+
+ Study this http://solo.to..This is what you are replicating
+
+ Project Tasks flow.
+
+1. Creation of git repo
+
+2. Project features and detail
+
+3. Fronted design (pages layout, design) - Customer pages and admin
+
+4. Creation  of Database (Test db)
+
+5. Backed implementation (backend codes and logics) Customer and admin functionalities 
+
+6. Testing (On demo db and hosting url)
+
+7.Test Deployment(QA)
+
+8. Live hosting Test.
+
+
+9. Live deployment (for customers to start using it)
+
+### APPLICATION FEATURES
+
+**These are project features**
+
+1. Landing page 
+2. Create account and choose plan.
+3. Sign in
+4. Pricing page ***4b*** Upgrade plan
+5. How it works
+6. Forget Password 
+7. Payment checkout
+
+8. Dashboard 
+9. My page/profile/appearance /Links Embed,Buttons and Integration, Upload product pictures (max 6)
+
+10. Analytic
+
+11. Profile detail 
+
+12. My page Preview
+
+14. Create Wallet / Fund Wallet
+15. Payment / Checkout
+ 
+16. Admin login, Dashboard,   Confirm payments, Delete customer, Upgrade View all accounts.
