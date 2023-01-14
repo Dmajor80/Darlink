@@ -34,11 +34,6 @@ export default function Login() {
        })
        console.log(data, 'data')
 
-
-      //  userContext.role = data.user.role
-      //  userContext.username = data.user.username
-      //  userContext.email = data.user.email
-
        
        if (data.success) {
          if (data.user.role === USER_TYPE.ADMIN())
