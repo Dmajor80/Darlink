@@ -4,7 +4,6 @@ import React, { useContext, useEffect, useState } from 'react'
 import Layout from '../../components/Layout'
 import { USER_ENDPOINTS } from '../../api/ACTIONS.JS'
 import api from '../../api/darlink'
-// import { LOGIN_ENDPOINTS } from '../../api/ACTIONS.JS'
 import { USER_TYPE } from '../../api/ACTIONS.JS'
 import { UserContext } from '../../context/context'
 
