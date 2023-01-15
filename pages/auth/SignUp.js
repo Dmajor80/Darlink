@@ -20,6 +20,8 @@ export default function SignUp() {
     console.log(values, 'valuesss');
     try {
       if(values.password !== values.confirm_password){
+        setError(true)
+        console.log(error, 'error');
 
       }else{
         const {data} = await api.post(USER_ENDPOINTS.REGISTER(),{

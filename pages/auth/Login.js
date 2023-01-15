@@ -55,8 +55,8 @@ export default function Login() {
      } catch (error) {
        console.log(error)
        console.log(error.msg)
-     }
-     setError('Invalid username or Password')
+       setError(true)
+      }
    }
 
    useEffect(() =>{
@@ -97,6 +97,7 @@ export default function Login() {
               {error?.username && (
                 <p className="text-red-500">{error.username}</p>
               )}
+              {/* {error && <p className="text-red-500">Invalid Username</p>} */}
             </div>
 
             <div className="relative w-full mb-3">
@@ -112,9 +113,10 @@ export default function Login() {
                 name="password"
               />
               {/* {error? <p>{error}</p> : null}  */}
-              {error?.password && (
+              {/* {error?.password && (
                 <p className="text-red-500">{error.password}</p>
-              )}
+              )} */}
+              {error && <p className="text-red-500">Invalid Password</p>}
             </div>
             <div className="relative w-full mb-3 md:flex justify-between md:space-x-4 ">
               <div>
