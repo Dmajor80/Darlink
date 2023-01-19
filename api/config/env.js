@@ -1,6 +1,6 @@
-const CONFIG ={
-    baseUrl:()=>'http://localhost',
-    port:()=>5001,
+const CONFIG = {
+  baseUrl: () => 'https://darlink.onrender.com',
+  port: () => 5001,
 }
 
 export default CONFIG;

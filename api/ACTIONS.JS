@@ -11,9 +11,7 @@ export const USER_ENDPOINTS = {
   RECOVERY_MAIL: () => '/user/recovery-mail',
   CREATE_ADMIN: () => '/auth/create',
 }
-// modules.exports = {
-//   LOGIN_ENDPOINTS,
-// }
+
 
 export const USER_TYPE = {
   ADMIN: () => 'admin',
@@ -26,4 +24,10 @@ export const USER_PLAN = {
   GET_PLAN: () => '/plan',
   DELETE_PLAN: () => '/plan',
   GET_USER_PLAN: () => '/plan/user-plan',
+}
+
+export const PROFILE = {
+  ADMIN_PROFILE: () => '/user/profiles',
+  USER_PROFILE: () => '/user/profile',
+  CREATE_USER_PROFILE: () => '/user/profile',
 }
