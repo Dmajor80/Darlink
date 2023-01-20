@@ -7,7 +7,7 @@ const config = {
 }
 
 const getConfig = () =>{
-    // return config.LOCAL_API();
+    return config.locAPI();
     return config.API();
 }
 export default getConfig;
