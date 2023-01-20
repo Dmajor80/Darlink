@@ -1,5 +1,5 @@
 const CONFIG = {
-  baseUrl: () => 'https://darlink.onrender.com',
+  baseUrl: () => process.env.REACT_APP_API_URL,
   port: () => 5001,
 }
 
