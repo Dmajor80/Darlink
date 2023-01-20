@@ -116,7 +116,7 @@ export default function Login() {
               {/* {error?.password && (
                 <p className="text-red-500">{error.password}</p>
               )} */}
-              {error && <p className="text-red-500">Invalid Password</p>}
+              {/* {error && <p className="text-red-500">Invalid Password</p>} */}
             </div>
             <div className="relative w-full mb-3 md:flex justify-between md:space-x-4 ">
               <div>
