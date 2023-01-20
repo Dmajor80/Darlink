@@ -10,8 +10,8 @@ import ToggleButton from '@mui/material/ToggleButton'
 import ToggleButtonGroup from '@mui/material/ToggleButtonGroup'
 import SearchRoundedIcon from '@mui/icons-material/SearchRounded'
 import ModeEditOutlineRoundedIcon from '@mui/icons-material/ModeEditOutlineRounded'
-import { PROFILE } from '../../api/ACTIONS.JS'
-import api from '../../api/darlink'
+import { PROFILE } from '../../pages/api/ACTIONS.JS'
+import api from '../../pages/api/darlink'
 import { faL } from '@fortawesome/free-solid-svg-icons'
 
 

@@ -2,9 +2,9 @@ import Link from 'next/link'
 import { useRouter } from 'next/router'
 import React, { useContext, useEffect, useState } from 'react'
 import Layout from '../../components/Layout'
-import { USER_ENDPOINTS } from '../../api/ACTIONS.JS'
-import api from '../../api/darlink'
-import { USER_TYPE } from '../../api/ACTIONS.JS'
+import { USER_ENDPOINTS } from '../../pages/api/ACTIONS.JS'
+import api from '../../pages/api/darlink'
+import { USER_TYPE } from '../../pages/api/ACTIONS.JS'
 import { UserContext } from '../../context/context'
 
 
