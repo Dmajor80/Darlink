@@ -4,8 +4,8 @@ import Layout from "./Layout";
 import { Message_data } from "../context/context"; 
 import { useContext, useEffect } from "react";
 import { useRouter } from "next/router";
-import api from '../api/darlink'
-import { LOGIN_ENDPOINTS } from "../api/ACTIONS.JS";
+// import api from '../api/darlink'
+// import { LOGIN_ENDPOINTS } from "../api/ACTIONS.JS";
 import Slide from "./Carousel";
 
 

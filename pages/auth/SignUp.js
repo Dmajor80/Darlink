@@ -1,8 +1,8 @@
 import Link from 'next/link'
 import React, { useState } from 'react'
-import { USER_ENDPOINTS } from '../../api/ACTIONS.JS'
+import { USER_ENDPOINTS } from '../../pages/api/ACTIONS.JS'
 import Layout from '../../components/Layout'
-import api from '../../api/darlink'
+import api from '../../pages/api/darlink'
 import { useRouter } from 'next/router'
 
 export default function SignUp() {

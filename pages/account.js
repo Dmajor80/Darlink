@@ -1,10 +1,10 @@
 import React, { useState } from 'react'
-import { PROFILE } from '../api/ACTIONS.JS'
+import { PROFILE } from '../pages/api/ACTIONS.JS'
 // import Dashboard from './dashboard'
 // import Details from '../components/Details'
 import Post from '../components/Post'
-import api from '../api/darlink'
-import { USER_ENDPOINTS } from '../api/ACTIONS.JS'
+import api from '../pages/api/darlink'
+import { USER_ENDPOINTS } from '../pages/api/ACTIONS.JS'
 
 export default function Account() {
   const [values, setValues] = useState({
